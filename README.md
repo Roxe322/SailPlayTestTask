@@ -8,7 +8,7 @@ email.send()
 >>> {'email': "test1@gmail.com", 'content': 'Hello gmail!'}
 ```
 # Testing
-* Install test requirements using ```pip install -r requirements-test.txt```
+* Install test requirements using ```pip install -r requirements-test.txt```.
 * run ```python -m pytest --cov=messaging --cov-report=html``` for unit tests and coverage report.
 * run ```python -m mypy messaging ``` for static type checking.
 * run ```python -m isort -rc messaging --check-only``` for check imports order.
